@@ -1,1 +1,608 @@
-{"get": "fixtures/events", "parameters": {"fixture": "868614"}, "errors": [], "results": 27, "paging": {"current": 1, "total": 1}, "response": [{"time": {"elapsed": 10, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-3.api-sports.io/football/teams/14279.png"}, "player": {"id": 36510, "name": "L. Marquez"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 12, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-2.api-sports.io/football/teams/2300.png"}, "player": {"id": 270791, "name": "V. Reyes"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 17, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-2.api-sports.io/football/teams/14279.png"}, "player": {"id": 270791, "name": "V. Reyes"}, "assist": {"id": null, "name": null}, "type": "Goal", "detail": "Own Goal", "comments": null}, {"time": {"elapsed": 30, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": 299895, "name": "E. Olaguez"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 35, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-3.api-sports.io/football/teams/14279.png"}, "player": {"id": null, "name": "A. Tecpanecatl"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 35, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": 210226, "name": "A. Leon"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 36, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-3.api-sports.io/football/teams/14279.png"}, "player": {"id": null, "name": "A. Tecpanecatl"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 36, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-2.api-sports.io/football/teams/14279.png"}, "player": {"id": null, "name": "A. Tecpanecatl"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Red Card", "comments": null}, {"time": {"elapsed": 39, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-1.api-sports.io/football/teams/14279.png"}, "player": {"id": 36510, "name": "L. M\u00e1rquez"}, "assist": {"id": 269461, "name": "F. Ponce"}, "type": "subst", "detail": "Substitution 1", "comments": null}, {"time": {"elapsed": 41, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": 270791, "name": "V. Reyes"}, "assist": {"id": 129946, "name": "L. Galicia"}, "type": "subst", "detail": "Substitution 1", "comments": null}, {"time": {"elapsed": 41, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-3.api-sports.io/football/teams/2300.png"}, "player": {"id": 299895, "name": "E. Olaguez"}, "assist": {"id": 133212, "name": "G. Huerta"}, "type": "subst", "detail": "Substitution 2", "comments": null}, {"time": {"elapsed": 46, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": 36013, "name": "O. Herrera"}, "assist": {"id": 190475, "name": "C. Ca\u00f1ozales"}, "type": "subst", "detail": "Substitution 3", "comments": null}, {"time": {"elapsed": 47, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-3.api-sports.io/football/teams/2300.png"}, "player": {"id": 35492, "name": "C. E. Guerrero Zavala"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 54, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-3.api-sports.io/football/teams/14279.png"}, "player": {"id": 324081, "name": "B. Gambarte"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 59, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-1.api-sports.io/football/teams/14279.png"}, "player": {"id": 269461, "name": "F. Ponce"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 60, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-3.api-sports.io/football/teams/2300.png"}, "player": {"id": 35869, "name": "H. Mar\u00edn"}, "assist": {"id": null, "name": null}, "type": "Goal", "detail": "Penalty", "comments": null}, {"time": {"elapsed": 63, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-1.api-sports.io/football/teams/14279.png"}, "player": {"id": 324081, "name": "B. Gambarte"}, "assist": {"id": 270763, "name": "J. Angulo"}, "type": "subst", "detail": "Substitution 2", "comments": null}, {"time": {"elapsed": 65, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-3.api-sports.io/football/teams/2300.png"}, "player": {"id": 133212, "name": "G. Huerta"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 70, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-2.api-sports.io/football/teams/2300.png"}, "player": {"id": 133212, "name": "G. Huerta"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Red Card", "comments": null}, {"time": {"elapsed": 70, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": 133212, "name": "G. Huerta"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 71, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": 133211, "name": "O. Paz Vasquez"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 75, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-2.api-sports.io/football/teams/2300.png"}, "player": {"id": 35492, "name": "C. Guerrero"}, "assist": {"id": 108571, "name": "N. Corona"}, "type": "subst", "detail": "Substitution 4", "comments": null}, {"time": {"elapsed": 75, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-2.api-sports.io/football/teams/2300.png"}, "player": {"id": 36217, "name": "A. Tamay"}, "assist": {"id": 36081, "name": "F. Morales"}, "type": "subst", "detail": "Substitution 5", "comments": null}, {"time": {"elapsed": 78, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-2.api-sports.io/football/teams/2300.png"}, "player": {"id": 35869, "name": "H. Marin"}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Red Card", "comments": null}, {"time": {"elapsed": 87, "extra": null}, "team": {"id": 2300, "name": "Alebrijes de Oaxaca", "logo": "https://media-1.api-sports.io/football/teams/2300.png"}, "player": {"id": null, "name": null}, "assist": {"id": null, "name": null}, "type": "Card", "detail": "Yellow Card", "comments": null}, {"time": {"elapsed": 89, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-2.api-sports.io/football/teams/14279.png"}, "player": {"id": 36001, "name": "C. Gonz\u00e1lez"}, "assist": {"id": 270720, "name": "C. Santana"}, "type": "subst", "detail": "Substitution 3", "comments": null}, {"time": {"elapsed": 89, "extra": null}, "team": {"id": 14279, "name": "Tepatitl\u00e1n", "logo": "https://media-2.api-sports.io/football/teams/14279.png"}, "player": {"id": 58471, "name": "E. Franco"}, "assist": {"id": 24632, "name": "Richard Luca"}, "type": "subst", "detail": "Substitution 4", "comments": null}]}
+{
+    "get": "fixtures/events",
+    "parameters": {
+        "fixture": "868614"
+    },
+    "errors": [],
+    "results": 27,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "time": {
+                "elapsed": 10,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-3.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 36510,
+                "name": "L. Marquez"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 12,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-2.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 270791,
+                "name": "V. Reyes"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 17,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-2.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 270791,
+                "name": "V. Reyes"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Goal",
+            "detail": "Own Goal",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 30,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 299895,
+                "name": "E. Olaguez"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 35,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-3.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": null,
+                "name": "A. Tecpanecatl"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 35,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 210226,
+                "name": "A. Leon"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 36,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-3.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": null,
+                "name": "A. Tecpanecatl"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 36,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-2.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": null,
+                "name": "A. Tecpanecatl"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Red Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 39,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-1.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 36510,
+                "name": "L. Márquez"
+            },
+            "assist": {
+                "id": 269461,
+                "name": "F. Ponce"
+            },
+            "type": "subst",
+            "detail": "Substitution 1",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 41,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 270791,
+                "name": "V. Reyes"
+            },
+            "assist": {
+                "id": 129946,
+                "name": "L. Galicia"
+            },
+            "type": "subst",
+            "detail": "Substitution 1",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 41,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-3.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 299895,
+                "name": "E. Olaguez"
+            },
+            "assist": {
+                "id": 133212,
+                "name": "G. Huerta"
+            },
+            "type": "subst",
+            "detail": "Substitution 2",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 46,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 36013,
+                "name": "O. Herrera"
+            },
+            "assist": {
+                "id": 190475,
+                "name": "C. Cañozales"
+            },
+            "type": "subst",
+            "detail": "Substitution 3",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 47,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-3.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 35492,
+                "name": "C. E. Guerrero Zavala"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 54,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-3.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 324081,
+                "name": "B. Gambarte"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 59,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-1.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 269461,
+                "name": "F. Ponce"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 60,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-3.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 35869,
+                "name": "H. Marín"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Goal",
+            "detail": "Penalty",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 63,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-1.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 324081,
+                "name": "B. Gambarte"
+            },
+            "assist": {
+                "id": 270763,
+                "name": "J. Angulo"
+            },
+            "type": "subst",
+            "detail": "Substitution 2",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 65,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-3.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 133212,
+                "name": "G. Huerta"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 70,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-2.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 133212,
+                "name": "G. Huerta"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Red Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 70,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 133212,
+                "name": "G. Huerta"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 71,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 133211,
+                "name": "O. Paz Vasquez"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 75,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-2.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 35492,
+                "name": "C. Guerrero"
+            },
+            "assist": {
+                "id": 108571,
+                "name": "N. Corona"
+            },
+            "type": "subst",
+            "detail": "Substitution 4",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 75,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-2.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 36217,
+                "name": "A. Tamay"
+            },
+            "assist": {
+                "id": 36081,
+                "name": "F. Morales"
+            },
+            "type": "subst",
+            "detail": "Substitution 5",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 78,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-2.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": 35869,
+                "name": "H. Marín"
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Red Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 87,
+                "extra": null
+            },
+            "team": {
+                "id": 2300,
+                "name": "Alebrijes de Oaxaca",
+                "logo": "https://media-1.api-sports.io/football/teams/2300.png"
+            },
+            "player": {
+                "id": null,
+                "name": null
+            },
+            "assist": {
+                "id": null,
+                "name": null
+            },
+            "type": "Card",
+            "detail": "Yellow Card",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 89,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-2.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 36001,
+                "name": "C. González"
+            },
+            "assist": {
+                "id": 270720,
+                "name": "C. Santana"
+            },
+            "type": "subst",
+            "detail": "Substitution 3",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 89,
+                "extra": null
+            },
+            "team": {
+                "id": 14279,
+                "name": "Tepatitlán",
+                "logo": "https://media-2.api-sports.io/football/teams/14279.png"
+            },
+            "player": {
+                "id": 58471,
+                "name": "E. Franco"
+            },
+            "assist": {
+                "id": 24632,
+                "name": "Richard Luca"
+            },
+            "type": "subst",
+            "detail": "Substitution 4",
+            "comments": null
+        }
+    ]
+}
