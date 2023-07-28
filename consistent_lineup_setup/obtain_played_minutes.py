@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def obtain_players_from_lineup(lineup: dict) -> list:
     team = lineup["response"][0]
     startXI = [players["player"]["name"] for players in team["startXI"]]
@@ -8,8 +11,10 @@ def obtain_players_from_lineup(lineup: dict) -> list:
 def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
     team = lineup["response"][0]
     minutes_sta = [90 for players in team["startXI"]]
-    minutes_tit = [90 for players in team["substitutes"]]
-    return [*minutes_sta, *minutes_tit]
+    minutes_tit = [0 for players in team["substitutes"]]
+    players = obtain_players_from_lineup(lineup)
+    minutes = [*minutes_sta, *minutes_tit]
+    return pd.DataFrame(list(zip(players, minutes)), columns=["player", "minutes"])
 
 
 def obtain_getin(events: dict) -> list:
