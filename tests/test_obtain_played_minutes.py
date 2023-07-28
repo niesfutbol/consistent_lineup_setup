@@ -41,3 +41,9 @@ def test_obtain_who_getout():
     expected_who_getout = ["L. Márquez", "B. Gambarte", "C. González", "E. Franco"]
     obtained_who_getout = cls.obtain_who_getout(events)
     assert expected_who_getout == obtained_who_getout
+
+
+def test_obtain_time_of_substitution():
+    expected_time = [39, 63, 89, 89]
+    obtained_time = cls.obtain_time_of_substitution(events)
+    assert expected_time == obtained_time
