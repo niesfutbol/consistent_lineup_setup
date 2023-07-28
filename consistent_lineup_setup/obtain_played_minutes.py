@@ -17,6 +17,12 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
     return pd.DataFrame(list(zip(players, minutes)), columns=["player", "minutes"])
 
 
+def obtain_info_in(events: dict) -> list:
+    in_p = obtain_getin(events)
+    minutes = [90 - minute for minute in obtain_time_of_substitution(events)]
+    return dict(zip(in_p, minutes))
+
+
 def obtain_getin(events: dict) -> list:
     return _obtain_substitutes(events, in_or_out="assist")
 
