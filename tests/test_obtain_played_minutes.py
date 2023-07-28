@@ -21,3 +21,9 @@ def test_obtain_players_from_lineup():
     expected_players = played_time["player"].to_list()
     obtained_players = cls.obtain_players_from_lineup(lineup)
     assert expected_players == obtained_players
+
+
+def test_obtain_played_minutes():
+    expected_minutes = played_time["minutes"].to_list()
+    obtained_minutes = cls.obtain_played_minutes_from_lineup(lineup)
+    assert expected_minutes == obtained_minutes
