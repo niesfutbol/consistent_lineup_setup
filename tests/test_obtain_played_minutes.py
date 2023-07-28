@@ -29,3 +29,9 @@ def test_obtain_played_minutes():
     expected_minutes = played_time["minutes"].to_list()
     obtained_minutes = cls.obtain_played_minutes_from_lineup(lineup, events)
     assert expected_minutes == obtained_minutes
+
+
+def test_obtain_subtitutes():
+    expected_substitutes = ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"]
+    obtained_substitutes = obtain_substitutes(events)
+    assert expected_substitutes == obtained_substitutes
