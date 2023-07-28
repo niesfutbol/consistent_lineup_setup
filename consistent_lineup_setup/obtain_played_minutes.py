@@ -20,6 +20,15 @@ def obtain_who_getout(events: dict) -> list:
     return _obtain_substitutes(events, in_or_out="player")
 
 
+def obtain_time_of_substitution(events: dict) -> list:
+    ins = [
+        event["time"]["elapsed"]
+        for event in events["response"]
+        if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
+    ]
+    return ins
+
+
 def _obtain_substitutes(events: dict, in_or_out: str) -> list:
     ins = [
         event[in_or_out]["name"]
