@@ -19,3 +19,12 @@ def obtain_substitutes(events: dict) -> list:
         if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
     ]
     return ins
+
+
+def obtain_who_getout(events: dict) -> list:
+    ins = [
+        event["player"]["name"]
+        for event in events["response"]
+        if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
+    ]
+    return ins
