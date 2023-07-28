@@ -42,6 +42,17 @@ def test_obtain_info_in():
     assert expected_dict == obtained_dict
 
 
+def test_obtain_info_out():
+    expected_dict = dict(
+        zip(
+            ["L. Márquez", "B. Gambarte", "C. González", "E. Franco"],
+            [39, 63, 89, 89],
+        )
+    )
+    obtained_dict = cls.obtain_info_out(events)
+    assert expected_dict == obtained_dict
+
+
 def test_obtain_getin():
     expected_substitutes = ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"]
     obtained_substitutes = cls.obtain_getin(events)
