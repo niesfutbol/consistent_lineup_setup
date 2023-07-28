@@ -33,7 +33,10 @@ def test_obtain_played_minutes():
 
 def test_obtain_info_in():
     expected_dict = dict(
-        zip(["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"], [39, 63, 89, 89])
+        zip(
+            ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"],
+            [90 - 39, 90 - 63, 90 - 89, 90 - 89],
+        )
     )
     obtained_dict = cls.obtain_info_in(events)
     assert expected_dict == obtained_dict
