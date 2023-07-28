@@ -18,6 +18,7 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
         player_minutes.loc[player_minutes.player == player, "minutes"] = who_in[player]
     return player_minutes
 
+
 def _setup_player_minutes(lineup):
     team = lineup["response"][0]
     players = obtain_players_from_lineup(lineup)

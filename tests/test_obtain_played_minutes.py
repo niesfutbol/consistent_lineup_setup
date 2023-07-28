@@ -1,6 +1,5 @@
 import json
 import pandas as pd
-import pytest
 import consistent_lineup_setup as cls
 
 
