@@ -31,6 +31,14 @@ def test_obtain_played_minutes():
     assert expected_minutes == obtained_minutes
 
 
+def test_obtain_info_in():
+    expected_dict = dict(
+        zip(["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"], [39, 63, 89, 89])
+    )
+    obtained_dict = cls.obtain_info_in(events)
+    assert expected_dict == obtained_dict
+
+
 def test_obtain_getin():
     expected_substitutes = ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"]
     obtained_substitutes = cls.obtain_getin(events)
