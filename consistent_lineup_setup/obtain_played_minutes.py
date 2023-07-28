@@ -14,7 +14,14 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
     minutes_tit = [0 for players in team["substitutes"]]
     players = obtain_players_from_lineup(lineup)
     minutes = [*minutes_sta, *minutes_tit]
-    return pd.DataFrame(list(zip(players, minutes)), columns=["player", "minutes"])
+    player_minutes = pd.DataFrame(list(zip(players, minutes)), columns=["player", "minutes"])
+    who_out = obtain_info_out(events)
+    who_in = obtain_info_in(events)
+    for player in list(who_out.keys()):
+        player_minutes.loc[player_minutes.player == player, "minutes"] = who_out[player]
+    for player in list(who_in.keys()):
+        player_minutes.loc[player_minutes.player == player, "minutes"] = who_in[player]
+    return player_minutes
 
 
 def obtain_info_in(events: dict) -> dict:

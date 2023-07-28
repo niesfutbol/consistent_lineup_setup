@@ -24,11 +24,14 @@ def test_obtain_players_from_lineup():
     assert expected_players == obtained_players
 
 
-@pytest.mark.skip()
 def test_obtain_played_minutes():
     expected_minutes = played_time["minutes"].to_list()
-    obtained_minutes = cls.obtain_played_minutes_from_lineup(lineup, events)
+    obtained = cls.obtain_played_minutes_from_lineup(lineup, events)
+    obtained_minutes = obtained["minutes"].to_list()
     assert expected_minutes == obtained_minutes
+    expected_players = played_time["player"].to_list()
+    obtained_players = obtained["player"].to_list()
+    assert expected_players == obtained_players
 
 
 def test_obtain_info_in():
