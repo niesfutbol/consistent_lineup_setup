@@ -12,7 +12,7 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
     return [*minutes_sta, *minutes_tit]
 
 
-def obtain_substitutes(events: dict) -> list:
+def obtain_getin(events: dict) -> list:
     ins = [
         event["assist"]["name"]
         for event in events["response"]
