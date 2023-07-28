@@ -31,7 +31,7 @@ def test_obtain_played_minutes():
     assert expected_minutes == obtained_minutes
 
 
-def test_obtain_subtitutes():
+def test_obtain_getin():
     expected_substitutes = ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"]
     obtained_substitutes = cls.obtain_getin(events)
     assert expected_substitutes == obtained_substitutes
