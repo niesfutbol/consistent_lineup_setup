@@ -35,3 +35,9 @@ def test_obtain_subtitutes():
     expected_substitutes = ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"]
     obtained_substitutes = cls.obtain_substitutes(events)
     assert expected_substitutes == obtained_substitutes
+
+
+def test_obtain_who_getout():
+    expected_who_getout = ["L. Márquez", "B. Gambarte", "C. González", "E. Franco"]
+    obtained_who_getout = cls.obtain_who_getout(events)
+    assert expected_who_getout == obtained_who_getout
