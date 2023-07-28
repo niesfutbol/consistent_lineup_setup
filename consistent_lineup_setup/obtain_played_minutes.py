@@ -13,17 +13,16 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
 
 
 def obtain_getin(events: dict) -> list:
-    ins = [
-        event["assist"]["name"]
-        for event in events["response"]
-        if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
-    ]
-    return ins
+    return _obtain_substitutes(events, in_or_out="assist")
 
 
 def obtain_who_getout(events: dict) -> list:
+    return _obtain_substitutes(events, in_or_out="player")
+
+
+def _obtain_substitutes(events: dict, in_or_out: str) -> list:
     ins = [
-        event["player"]["name"]
+        event[in_or_out]["name"]
         for event in events["response"]
         if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
     ]
