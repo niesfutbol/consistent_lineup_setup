@@ -19,6 +19,7 @@ played_time = pd.read_csv("/workdir/tests/data/consistent_team.csv")
 
 def test_obtainer():
     Obtainer = cls.Obtainer_Played_Minutes()
+    Obtainer.set_events(events)
     expected_minutes = played_time["minutes"].to_list()
     obtained = cls.obtain_played_minutes_from_lineup(lineup, events)
     obtained_minutes = obtained["minutes"].to_list()
@@ -26,4 +27,3 @@ def test_obtainer():
     expected_players = played_time["player"].to_list()
     obtained_players = obtained["player"].to_list()
     assert expected_players == obtained_players
-
