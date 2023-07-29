@@ -29,3 +29,6 @@ def test_obtainer():
     expected_players = played_time["player"].to_list()
     obtained_players = obtained["player"].to_list()
     assert expected_players == obtained_players
+    expected_team = played_time["team"].to_list()
+    obtained_team = obtained["team"].to_list()
+    assert expected_team == obtained_team
