@@ -21,8 +21,9 @@ def test_obtainer():
     Obtainer = cls.Obtainer_Played_Minutes()
     Obtainer.set_events(events)
     Obtainer.set_lineup(lineup)
+    Obtainer.obtain_played_minutes()
     expected_minutes = played_time["minutes"].to_list()
-    obtained = cls.obtain_played_minutes_from_lineup(lineup, events)
+    obtained = Obtainer.played_minutes
     obtained_minutes = obtained["minutes"].to_list()
     assert expected_minutes == obtained_minutes
     expected_players = played_time["player"].to_list()
