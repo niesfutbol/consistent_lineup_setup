@@ -15,5 +15,6 @@ class Obtainer_Played_Minutes:
         self._lineup = lineup
 
     def obtain_played_minutes(self) -> None:
-        self.played_minutes = obtain_played_minutes_from_lineup(self._lineup, self._events)
+        dx_team = 0
+        self.played_minutes = obtain_played_minutes_from_lineup(self._lineup, self._events, dx_team)
         self.played_minutes["team"] = self.team
