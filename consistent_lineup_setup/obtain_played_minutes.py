@@ -9,7 +9,8 @@ def obtain_players_from_lineup(lineup: dict, dx_team) -> list:
 
 
 def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
-    player_minutes = _setup_player_minutes(lineup)
+    dx_team = 0
+    player_minutes = _setup_player_minutes(lineup, dx_team)
     who_out = obtain_info_out(events)
     who_in = obtain_info_in(events)
     for player in list(who_out.keys()):
@@ -19,9 +20,8 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict) -> list:
     return player_minutes
 
 
-def _setup_player_minutes(lineup):
-    team = lineup["response"][0]
-    dx_team = 0
+def _setup_player_minutes(lineup, dx_team):
+    team = lineup["response"][dx_team]
     players = obtain_players_from_lineup(lineup, dx_team)
     minutes = [*[90 for _ in team["startXI"]], *[0 for _ in team["substitutes"]]]
     player_minutes = pd.DataFrame(list(zip(players, minutes)), columns=["player", "minutes"])
