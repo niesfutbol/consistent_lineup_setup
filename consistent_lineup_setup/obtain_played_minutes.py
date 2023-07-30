@@ -41,11 +41,13 @@ def obtain_info_out(events: dict, team: str) -> dict:
 
 
 def obtain_getin(events: dict) -> list:
-    return _obtain_substitutes(events, in_or_out="assist")
+    team = "Tepatitlán"
+    return _obtain_substitutes(events, in_or_out="assist", team=team)
 
 
 def obtain_who_getout(events: dict) -> list:
-    return _obtain_substitutes(events, in_or_out="player")
+    team = "Tepatitlán"
+    return _obtain_substitutes(events, in_or_out="player", team=team)
 
 
 def obtain_time_of_substitution(events: dict, team: str) -> list:
@@ -57,10 +59,10 @@ def obtain_time_of_substitution(events: dict, team: str) -> list:
     return ins
 
 
-def _obtain_substitutes(events: dict, in_or_out: str) -> list:
+def _obtain_substitutes(events: dict, in_or_out: str, team: str) -> list:
     ins = [
         event[in_or_out]["name"]
         for event in events["response"]
-        if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
+        if ((event["type"] == "subst") & (event["team"]["name"] == team))
     ]
     return ins
