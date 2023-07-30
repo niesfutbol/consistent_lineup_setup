@@ -32,3 +32,7 @@ def test_obtainer():
     expected_team = played_time["team"].to_list()
     obtained_team = obtained["team"].to_list()
     assert expected_team == obtained_team
+    Obtainer.obtain_played_minutes(dx_team=1)
+    obtained = Obtainer.played_minutes
+    obtained_team = obtained["team"].to_list()
+    assert "Alebrijes de Oaxaca" == obtained_team[3]
