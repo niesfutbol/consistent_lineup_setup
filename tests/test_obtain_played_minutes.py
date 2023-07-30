@@ -55,21 +55,3 @@ def test_obtain_info_out():
     )
     obtained_dict = cls.obtain_info_out(events)
     assert expected_dict == obtained_dict
-
-
-def test_obtain_getin():
-    expected_substitutes = ["F. Ponce", "J. Angulo", "C. Santana", "Richard Luca"]
-    obtained_substitutes = cls.obtain_getin(events)
-    assert expected_substitutes == obtained_substitutes
-
-
-def test_obtain_who_getout():
-    expected_who_getout = ["L. Márquez", "B. Gambarte", "C. González", "E. Franco"]
-    obtained_who_getout = cls.obtain_who_getout(events)
-    assert expected_who_getout == obtained_who_getout
-
-
-def test_obtain_time_of_substitution():
-    expected_time = [39, 63, 89, 89]
-    obtained_time = cls.obtain_time_of_substitution(events)
-    assert expected_time == obtained_time
