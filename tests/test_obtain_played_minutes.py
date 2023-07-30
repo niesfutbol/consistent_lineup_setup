@@ -19,7 +19,8 @@ played_time = pd.read_csv("/workdir/tests/data/consistent_team.csv")
 
 def test_obtain_players_from_lineup():
     expected_players = played_time["player"].to_list()
-    obtained_players = cls.obtain_players_from_lineup(lineup)
+    dx_team = 0
+    obtained_players = cls.obtain_players_from_lineup(lineup, dx_team)
     assert expected_players == obtained_players
 
 
