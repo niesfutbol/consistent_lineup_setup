@@ -36,3 +36,12 @@ def test_obtainer():
     obtained = Obtainer.played_minutes
     obtained_team = obtained["team"].to_list()
     assert "Alebrijes de Oaxaca" == obtained_team[3]
+
+
+def test_obtainer_init():
+    Obtainer = cls.Obtainer_Played_Minutes()
+    assert Obtainer._events is None
+    assert Obtainer._lineup is None
+    assert Obtainer.played_minutes is None
+    assert Obtainer.dx_team is None
+    assert Obtainer.team is None

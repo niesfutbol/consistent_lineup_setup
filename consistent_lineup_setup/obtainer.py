@@ -6,8 +6,8 @@ class Obtainer_Played_Minutes:
         self._events = None
         self._lineup = None
         self.played_minutes = None
-        self.dx_team = 0
-        self.team = "Tepatitlán"
+        self.dx_team = None
+        self.team = None
 
     def set_events(self, events) -> None:
         self._events = events
