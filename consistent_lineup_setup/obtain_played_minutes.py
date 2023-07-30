@@ -12,7 +12,7 @@ def obtain_played_minutes_from_lineup(lineup: dict, events: dict, dx_team: int) 
     player_minutes = _setup_player_minutes(lineup, dx_team)
     team = "Tepatitlán"
     who_out = obtain_info_out(events, team)
-    who_in = obtain_info_in(events)
+    who_in = obtain_info_in(events, team)
     for player in list(who_out.keys()):
         player_minutes.loc[player_minutes.player == player, "minutes"] = who_out[player]
     for player in list(who_in.keys()):
@@ -28,9 +28,8 @@ def _setup_player_minutes(lineup, dx_team):
     return player_minutes
 
 
-def obtain_info_in(events: dict) -> dict:
+def obtain_info_in(events: dict, team: str) -> dict:
     in_p = obtain_getin(events)
-    team = "Tepatitlán"
     minutes = [90 - minute for minute in obtain_time_of_substitution(events, team)]
     return dict(zip(in_p, minutes))
 
