@@ -10,7 +10,8 @@ def obtain_players_from_lineup(lineup: dict, dx_team) -> list:
 
 def obtain_played_minutes_from_lineup(lineup: dict, events: dict, dx_team: int) -> list:
     player_minutes = _setup_player_minutes(lineup, dx_team)
-    who_out = obtain_info_out(events)
+    team = "Tepatitlán"
+    who_out = obtain_info_out(events, team)
     who_in = obtain_info_in(events)
     for player in list(who_out.keys()):
         player_minutes.loc[player_minutes.player == player, "minutes"] = who_out[player]
@@ -29,13 +30,15 @@ def _setup_player_minutes(lineup, dx_team):
 
 def obtain_info_in(events: dict) -> dict:
     in_p = obtain_getin(events)
-    minutes = [90 - minute for minute in obtain_time_of_substitution(events)]
+    team = "Tepatitlán"
+    minutes = [90 - minute for minute in obtain_time_of_substitution(events, team)]
     return dict(zip(in_p, minutes))
 
 
-def obtain_info_out(events: dict) -> dict:
+def obtain_info_out(events: dict, team: str) -> dict:
     in_p = obtain_who_getout(events)
-    minutes = obtain_time_of_substitution(events)
+    team = "Tepatitlán"
+    minutes = obtain_time_of_substitution(events, team)
     return dict(zip(in_p, minutes))
 
 
@@ -47,11 +50,11 @@ def obtain_who_getout(events: dict) -> list:
     return _obtain_substitutes(events, in_or_out="player")
 
 
-def obtain_time_of_substitution(events: dict) -> list:
+def obtain_time_of_substitution(events: dict, team: str) -> list:
     ins = [
         event["time"]["elapsed"]
         for event in events["response"]
-        if ((event["type"] == "subst") & (event["team"]["name"] == "Tepatitlán"))
+        if ((event["type"] == "subst") & (event["team"]["name"] == team))
     ]
     return ins
 

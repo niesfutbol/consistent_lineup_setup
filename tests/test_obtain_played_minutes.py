@@ -53,5 +53,6 @@ def test_obtain_info_out():
             [39, 63, 89, 89],
         )
     )
-    obtained_dict = cls.obtain_info_out(events)
+    team = "Tepatitlán"
+    obtained_dict = cls.obtain_info_out(events, team)
     assert expected_dict == obtained_dict
