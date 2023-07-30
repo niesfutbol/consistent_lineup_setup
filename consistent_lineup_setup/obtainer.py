@@ -6,6 +6,7 @@ class Obtainer_Played_Minutes:
         self._events = None
         self._lineup = None
         self.played_minutes = None
+        self.dx_team = 0
         self.team = "Tepatitlán"
 
     def set_events(self, events) -> None:
@@ -15,6 +16,7 @@ class Obtainer_Played_Minutes:
         self._lineup = lineup
 
     def obtain_played_minutes(self) -> None:
-        dx_team = 0
-        self.played_minutes = obtain_played_minutes_from_lineup(self._lineup, self._events, dx_team)
+        self.played_minutes = obtain_played_minutes_from_lineup(
+            self._lineup, self._events, self.dx_team
+        )
         self.played_minutes["team"] = self.team
