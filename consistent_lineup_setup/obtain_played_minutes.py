@@ -37,7 +37,6 @@ def obtain_info_in(events: dict) -> dict:
 
 def obtain_info_out(events: dict, team: str) -> dict:
     in_p = obtain_who_getout(events)
-    team = "Tepatitlán"
     minutes = obtain_time_of_substitution(events, team)
     return dict(zip(in_p, minutes))
 
