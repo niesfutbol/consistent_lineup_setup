@@ -29,7 +29,7 @@ def _setup_player_minutes(lineup, dx_team):
 
 
 def obtain_info_in(events: dict, team: str) -> dict:
-    in_p = obtain_getin(events)
+    in_p = obtain_getin(events, team)
     minutes = [90 - minute for minute in obtain_time_of_substitution(events, team)]
     return dict(zip(in_p, minutes))
 
@@ -40,8 +40,7 @@ def obtain_info_out(events: dict, team: str) -> dict:
     return dict(zip(in_p, minutes))
 
 
-def obtain_getin(events: dict) -> list:
-    team = "Tepatitlán"
+def obtain_getin(events: dict, team: str) -> list:
     return _obtain_substitutes(events, in_or_out="assist", team=team)
 
 
