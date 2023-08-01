@@ -35,7 +35,7 @@ def obtain_info_in(events: dict, team: str) -> dict:
 
 
 def obtain_info_out(events: dict, team: str) -> dict:
-    in_p = obtain_who_getout(events)
+    in_p = obtain_who_getout(events, team)
     minutes = obtain_time_of_substitution(events, team)
     return dict(zip(in_p, minutes))
 
@@ -44,8 +44,7 @@ def obtain_getin(events: dict, team: str) -> list:
     return _obtain_substitutes(events, in_or_out="assist", team=team)
 
 
-def obtain_who_getout(events: dict) -> list:
-    team = "Tepatitlán"
+def obtain_who_getout(events: dict, team: str) -> list:
     return _obtain_substitutes(events, in_or_out="player", team=team)
 
 
