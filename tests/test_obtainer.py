@@ -36,7 +36,6 @@ def test_obtainer():
     assert expected_team == obtained_team
 
 
-@pytest.mark.skip()
 def test_obtainer_second_example():
     Obtainer = cls.Obtainer_Played_Minutes()
     Obtainer.set_events(events)
