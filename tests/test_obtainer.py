@@ -46,6 +46,7 @@ def test_obtainer_second_example():
     assert "Alebrijes de Oaxaca" == obtained_team[3]
     played_minutes_start_11 = np.sum(obtained["minutes"].to_list()[0:11])
     assert 90 * 11 > played_minutes_start_11
+    assert 90 * 11 == np.sum(obtained["minutes"].to_list())
 
 
 def test_obtainer_init():
