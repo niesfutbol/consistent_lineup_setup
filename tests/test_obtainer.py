@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import numpy as np
 import consistent_lineup_setup as cls
 
 
@@ -36,6 +37,8 @@ def test_obtainer():
     obtained = Obtainer.played_minutes
     obtained_team = obtained["team"].to_list()
     assert "Alebrijes de Oaxaca" == obtained_team[3]
+    played_minutes_start_11 = np.sum(obtained["minutes"].to_list()[0:11])
+    assert 90 * 11 > played_minutes_start_11
 
 
 def test_obtainer_init():
