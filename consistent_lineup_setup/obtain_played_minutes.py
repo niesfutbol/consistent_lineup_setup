@@ -8,9 +8,8 @@ def obtain_players_from_lineup(lineup: dict, dx_team) -> list:
     return [*startXI, *substit]
 
 
-def obtain_played_minutes_from_lineup(lineup: dict, events: dict, dx_team: int) -> list:
+def obtain_played_minutes_from_lineup(lineup: dict, events: dict, dx_team: int, team: str) -> list:
     player_minutes = _setup_player_minutes(lineup, dx_team)
-    team = "Tepatitlán"
     who_out = obtain_info_out(events, team)
     who_in = obtain_info_in(events, team)
     for player in list(who_out.keys()):
