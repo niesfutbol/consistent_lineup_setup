@@ -1,7 +1,6 @@
 import json
 import pandas as pd
 import numpy as np
-import pytest
 import consistent_lineup_setup as cls
 
 
@@ -23,7 +22,7 @@ def test_obtainer():
     Obtainer = cls.Obtainer_Played_Minutes()
     Obtainer.set_events(events)
     Obtainer.set_lineup(lineup)
-    Obtainer.obtain_played_minutes()
+    Obtainer.obtain_played_minutes(dx_team=0)
     expected_minutes = played_time["minutes"].to_list()
     obtained = Obtainer.played_minutes
     obtained_minutes = obtained["minutes"].to_list()
