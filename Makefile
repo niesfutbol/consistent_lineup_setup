@@ -48,6 +48,7 @@ coverage: setup
 format:
 	black --line-length 100 ${module}
 	black --line-length 100 tests
+	black --line-length 100 src
 
 init: setup tests
 
